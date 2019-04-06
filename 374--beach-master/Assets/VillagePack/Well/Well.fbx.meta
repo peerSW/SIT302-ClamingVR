@@ -1,9 +1,7 @@
 fileFormatVersion: 2
 guid: 21cf86b1834db25468c609ce2465187f
-timeCreated: 1465321266
-licenseType: Store
 ModelImporter:
-  serializedVersion: 19
+  serializedVersion: 23
   fileIDToRecycleName:
     100000: Cube
     100002: Cube.001
@@ -629,26 +627,673 @@ ModelImporter:
     4300242: Cylinder.159
     4300244: Cylinder.160
     4300246: Circle.001
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal
+    second: {fileID: 2100000, guid: 0d7ca8495341bc04da53c6b03a244ec5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: f9f550242c307e94396c5fc76b86a1b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickBackSide
+    second: {fileID: 2100000, guid: 2cad71473ac279446bd60792a9f11781, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickBackSide.001
+    second: {fileID: 2100000, guid: a3c9e7e6abc801a469eacedf9a095a79, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickBackSide.002
+    second: {fileID: 2100000, guid: 4b69ad00470d9a54fb97c6569b503ad1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickBackSide.003
+    second: {fileID: 2100000, guid: fc7e4471b3b04384198e615a0c7a4e3b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickBackSide.004
+    second: {fileID: 2100000, guid: b435b9bb4cc83fc41b1337d07832cffe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickBackSide.005
+    second: {fileID: 2100000, guid: d02b7cc804ff8e241bd1f52b2a920e24, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickBackSide.006
+    second: {fileID: 2100000, guid: 22c7222b2abc5da4fb5dfe8613d8a4aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickBackSide.007
+    second: {fileID: 2100000, guid: b1e693f4e02c2b74c9e0789d2d6b2666, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickBackSide.008
+    second: {fileID: 2100000, guid: 1d33640f5fe379e4ca9b7d5954a76bf2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickBackSide.009
+    second: {fileID: 2100000, guid: 2594d53bfa10c6b47832dde4d7a03c12, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickBackSide.010
+    second: {fileID: 2100000, guid: 9fb17edc89499574a84c867b8d5e73bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickBackSide.011
+    second: {fileID: 2100000, guid: e679f9d1737dc4647ba9d2b3e311a2f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickBackSide.012
+    second: {fileID: 2100000, guid: 8864924cb449d0e42891772a4553adfb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickBackSide.013
+    second: {fileID: 2100000, guid: 1e7267af9e10b074fb63289926cdd17e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickBackSide.014
+    second: {fileID: 2100000, guid: 1f5dc7a834281114f8fae7336a3fdc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickBackSide.015
+    second: {fileID: 2100000, guid: e2a1321ff0abe3d458495fed040811e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickBackSide.016
+    second: {fileID: 2100000, guid: 941c1990aa3f8cd4d95decf47de314ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickBackSide.041
+    second: {fileID: 2100000, guid: 1a59a6750a4f6704798fbfbc690130a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickBackSide.042
+    second: {fileID: 2100000, guid: 526af1843515c9b4da9af84ae81defd0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickBackSide.043
+    second: {fileID: 2100000, guid: 0b056126cfeaf394286602b12dc9cc98, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickBackSide.044
+    second: {fileID: 2100000, guid: c1dbb64f9ff540143b876a8b943fd897, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickBackSide.045
+    second: {fileID: 2100000, guid: 94138eeb2d9f03544a23b1499045548c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickBackSide.046
+    second: {fileID: 2100000, guid: 52b1f397cf071a249b69d8bbf19810e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickBackSide.047
+    second: {fileID: 2100000, guid: 4cce505787c62284b98f5315b02b47d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickBackSide.048
+    second: {fileID: 2100000, guid: 0bb3275a9e3ae324a84896c2f041cc1c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickBackSide.049
+    second: {fileID: 2100000, guid: 7131f3ee4ebc7a740a2c9be79898cad6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickBackSide.050
+    second: {fileID: 2100000, guid: 402c0395db06c134a992103c3a9db601, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickBackSide.051
+    second: {fileID: 2100000, guid: 369b3f51ab05f194dbecebf32fbc0bbf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickBackSide.052
+    second: {fileID: 2100000, guid: f62dff81c75ed084f84bac46e5a7d5cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickBackSide.053
+    second: {fileID: 2100000, guid: 16b65026629e38f43b7892229f871d34, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickBackSide.054
+    second: {fileID: 2100000, guid: 0ae715b6188ac0347be48b6b4cff9423, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickBackSide.055
+    second: {fileID: 2100000, guid: 0e78e682f356fb2469a0521c4f5a3457, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickBackSide.056
+    second: {fileID: 2100000, guid: 47923dc465bb5104d9c2e813fed677d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickBackSide.057
+    second: {fileID: 2100000, guid: 6ec6e940e92bc8446872307b95143f50, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickBackSide.058
+    second: {fileID: 2100000, guid: 94a14cc7760d8f84b8e702865c093695, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickBackSide.059
+    second: {fileID: 2100000, guid: acbbe9b1411b55b48a61f5edc70026f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickBackSide.060
+    second: {fileID: 2100000, guid: 8cd541ee04e463a4ea06b6ad6fc612c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickBackSide.061
+    second: {fileID: 2100000, guid: 7cd443b3bf664dc48b2c3f0ada4b4671, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickBackSide.062
+    second: {fileID: 2100000, guid: 2800f2286f6fd664ea9ffbb1bf184803, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickBackSide.063
+    second: {fileID: 2100000, guid: 95848c7dacbaf914a9dbc4c54e4438d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickBackSide.064
+    second: {fileID: 2100000, guid: 8eb9a210de4b5954984d02c3a028e7da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickBackSide.065
+    second: {fileID: 2100000, guid: a22f85579894d9a4d97ed83524e90caf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickBackSide.066
+    second: {fileID: 2100000, guid: 5055f1bf44e70e84eb63b6f578a1e911, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickBackSide.067
+    second: {fileID: 2100000, guid: 5ea847249eb1b654389617e5719d41f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickBackSide.068
+    second: {fileID: 2100000, guid: f031eb368f413c34f97fa1385b8c5c9a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickBackSide.069
+    second: {fileID: 2100000, guid: b29c5039db64877448c3d17832147a68, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickBackSide.070
+    second: {fileID: 2100000, guid: afd95fdd9b7155942aa9ccf893b71d15, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickBackSide.071
+    second: {fileID: 2100000, guid: bfb30002b1f9d8b4aa5ca2cea7e974f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickBackSide.072
+    second: {fileID: 2100000, guid: 8cc11897481607248bfea3dd2a0b9949, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickBackSide.073
+    second: {fileID: 2100000, guid: 24b61737e5e048749a851e3dd67c1d21, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickBackSide.074
+    second: {fileID: 2100000, guid: 2e40def3cc6a43b4b9d007eb0eba24ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickBackSide.075
+    second: {fileID: 2100000, guid: 6f066f032bb14e647a399df27904f840, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickBackSide.076
+    second: {fileID: 2100000, guid: d22e054ba9a06a04484d57a804bbf702, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickBackSide.077
+    second: {fileID: 2100000, guid: 48497761da5ec4d4c872533522f1bf23, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickBackSide.078
+    second: {fileID: 2100000, guid: f9f7b1e16f5528f448dc808a1e5c1c30, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickBackSide.079
+    second: {fileID: 2100000, guid: f509d16aa9e841645921f12a91b55d88, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickBackSide.080
+    second: {fileID: 2100000, guid: 41d857c99ed58a548a22393710d5e375, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickBackSide.081
+    second: {fileID: 2100000, guid: d19fdfa71b1be044fb750dbb8c9ce885, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickBackSide.082
+    second: {fileID: 2100000, guid: eedee0b59a396ce4690e9658706ab97d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickBackSide.083
+    second: {fileID: 2100000, guid: c0076352a1d3b4545a261be89c3e5651, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickBackSide.084
+    second: {fileID: 2100000, guid: 496b3ff02ba067244b3adc5cdf3db4de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickBackSide.085
+    second: {fileID: 2100000, guid: 105c21596cc13c94eb7896dce78d6964, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickFronSide
+    second: {fileID: 2100000, guid: a444aae0b0964384cb5ee370f9baa92e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickFronSide.001
+    second: {fileID: 2100000, guid: a444aae0b0964384cb5ee370f9baa92e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickFronSide.002
+    second: {fileID: 2100000, guid: a444aae0b0964384cb5ee370f9baa92e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickFronSide.003
+    second: {fileID: 2100000, guid: a444aae0b0964384cb5ee370f9baa92e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickFronSide.004
+    second: {fileID: 2100000, guid: a444aae0b0964384cb5ee370f9baa92e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickFronSide.005
+    second: {fileID: 2100000, guid: a444aae0b0964384cb5ee370f9baa92e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickFronSide.006
+    second: {fileID: 2100000, guid: a444aae0b0964384cb5ee370f9baa92e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickFronSide.007
+    second: {fileID: 2100000, guid: a444aae0b0964384cb5ee370f9baa92e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickFronSide.008
+    second: {fileID: 2100000, guid: a444aae0b0964384cb5ee370f9baa92e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickFronSide.009
+    second: {fileID: 2100000, guid: a444aae0b0964384cb5ee370f9baa92e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickFronSide.010
+    second: {fileID: 2100000, guid: a444aae0b0964384cb5ee370f9baa92e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickFronSide.011
+    second: {fileID: 2100000, guid: a444aae0b0964384cb5ee370f9baa92e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickFronSide.012
+    second: {fileID: 2100000, guid: a444aae0b0964384cb5ee370f9baa92e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickFronSide.013
+    second: {fileID: 2100000, guid: a444aae0b0964384cb5ee370f9baa92e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickFronSide.014
+    second: {fileID: 2100000, guid: a444aae0b0964384cb5ee370f9baa92e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickFronSide.015
+    second: {fileID: 2100000, guid: a444aae0b0964384cb5ee370f9baa92e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickFronSide.016
+    second: {fileID: 2100000, guid: a444aae0b0964384cb5ee370f9baa92e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickFronSide.041
+    second: {fileID: 2100000, guid: a444aae0b0964384cb5ee370f9baa92e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickFronSide.042
+    second: {fileID: 2100000, guid: a444aae0b0964384cb5ee370f9baa92e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickFronSide.043
+    second: {fileID: 2100000, guid: a444aae0b0964384cb5ee370f9baa92e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickFronSide.044
+    second: {fileID: 2100000, guid: a444aae0b0964384cb5ee370f9baa92e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickFronSide.045
+    second: {fileID: 2100000, guid: a444aae0b0964384cb5ee370f9baa92e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickFronSide.046
+    second: {fileID: 2100000, guid: a444aae0b0964384cb5ee370f9baa92e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickFronSide.047
+    second: {fileID: 2100000, guid: a444aae0b0964384cb5ee370f9baa92e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickFronSide.048
+    second: {fileID: 2100000, guid: a444aae0b0964384cb5ee370f9baa92e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickFronSide.049
+    second: {fileID: 2100000, guid: a444aae0b0964384cb5ee370f9baa92e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickFronSide.050
+    second: {fileID: 2100000, guid: a444aae0b0964384cb5ee370f9baa92e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickFronSide.051
+    second: {fileID: 2100000, guid: a444aae0b0964384cb5ee370f9baa92e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickFronSide.052
+    second: {fileID: 2100000, guid: a444aae0b0964384cb5ee370f9baa92e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickFronSide.053
+    second: {fileID: 2100000, guid: a444aae0b0964384cb5ee370f9baa92e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickFronSide.054
+    second: {fileID: 2100000, guid: a444aae0b0964384cb5ee370f9baa92e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickFronSide.055
+    second: {fileID: 2100000, guid: a444aae0b0964384cb5ee370f9baa92e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickFronSide.056
+    second: {fileID: 2100000, guid: a444aae0b0964384cb5ee370f9baa92e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickFronSide.057
+    second: {fileID: 2100000, guid: a444aae0b0964384cb5ee370f9baa92e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickFronSide.058
+    second: {fileID: 2100000, guid: a444aae0b0964384cb5ee370f9baa92e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickFronSide.059
+    second: {fileID: 2100000, guid: a444aae0b0964384cb5ee370f9baa92e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickFronSide.060
+    second: {fileID: 2100000, guid: a444aae0b0964384cb5ee370f9baa92e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickFronSide.061
+    second: {fileID: 2100000, guid: a444aae0b0964384cb5ee370f9baa92e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickFronSide.062
+    second: {fileID: 2100000, guid: a444aae0b0964384cb5ee370f9baa92e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickFronSide.063
+    second: {fileID: 2100000, guid: a444aae0b0964384cb5ee370f9baa92e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickFronSide.064
+    second: {fileID: 2100000, guid: a444aae0b0964384cb5ee370f9baa92e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickFronSide.065
+    second: {fileID: 2100000, guid: a444aae0b0964384cb5ee370f9baa92e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickFronSide.066
+    second: {fileID: 2100000, guid: a444aae0b0964384cb5ee370f9baa92e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickFronSide.067
+    second: {fileID: 2100000, guid: a444aae0b0964384cb5ee370f9baa92e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickFronSide.068
+    second: {fileID: 2100000, guid: a444aae0b0964384cb5ee370f9baa92e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickFronSide.069
+    second: {fileID: 2100000, guid: a444aae0b0964384cb5ee370f9baa92e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickFronSide.070
+    second: {fileID: 2100000, guid: a444aae0b0964384cb5ee370f9baa92e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickFronSide.071
+    second: {fileID: 2100000, guid: a444aae0b0964384cb5ee370f9baa92e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickFronSide.072
+    second: {fileID: 2100000, guid: a444aae0b0964384cb5ee370f9baa92e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickFronSide.073
+    second: {fileID: 2100000, guid: a444aae0b0964384cb5ee370f9baa92e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickFronSide.074
+    second: {fileID: 2100000, guid: a444aae0b0964384cb5ee370f9baa92e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickFronSide.075
+    second: {fileID: 2100000, guid: a444aae0b0964384cb5ee370f9baa92e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickFronSide.076
+    second: {fileID: 2100000, guid: a444aae0b0964384cb5ee370f9baa92e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickFronSide.077
+    second: {fileID: 2100000, guid: a444aae0b0964384cb5ee370f9baa92e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickFronSide.078
+    second: {fileID: 2100000, guid: a444aae0b0964384cb5ee370f9baa92e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickFronSide.079
+    second: {fileID: 2100000, guid: a444aae0b0964384cb5ee370f9baa92e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickFronSide.080
+    second: {fileID: 2100000, guid: a444aae0b0964384cb5ee370f9baa92e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickFronSide.081
+    second: {fileID: 2100000, guid: a444aae0b0964384cb5ee370f9baa92e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickFronSide.082
+    second: {fileID: 2100000, guid: a444aae0b0964384cb5ee370f9baa92e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickFronSide.083
+    second: {fileID: 2100000, guid: a444aae0b0964384cb5ee370f9baa92e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickFronSide.084
+    second: {fileID: 2100000, guid: a444aae0b0964384cb5ee370f9baa92e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickFronSide.085
+    second: {fileID: 2100000, guid: a444aae0b0964384cb5ee370f9baa92e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood
+    second: {fileID: 2100000, guid: 36abdcec076c1584ca9b50d00ff6373b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood2
+    second: {fileID: 2100000, guid: c990da8989b5ca940a81a00b3f4e856e, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
-    resampleRotations: 1
+    resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
+    extraUserProperties: []
     clipAnimations: []
     isReadable: 1
   meshes:
@@ -656,25 +1301,34 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    importVisibility: 0
     importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
+    normalCalculationMode: 0
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
+    serializedVersion: 2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -686,6 +1340,8 @@ ModelImporter:
     feetSpacing: 0
     rootMotionBoneName: 
     hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 0
   humanoidOversampling: 1
