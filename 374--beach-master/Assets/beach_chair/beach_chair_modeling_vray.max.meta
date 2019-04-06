@@ -3,6 +3,32 @@ guid: c88227af9b4ab8345b7b0d679d01c944
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
+    100000: //RootNode
+    100002: Cylinder002
+    100004: frame_leg
+    100006: frame_seat
+    100008: seat
+    400000: //RootNode
+    400002: Cylinder002
+    400004: frame_leg
+    400006: frame_seat
+    400008: seat
+    2100000: 'Material #3'
+    2100002: 'Material #4'
+    2100004: 'Material #2'
+    2300000: Cylinder002
+    2300002: frame_leg
+    2300004: frame_seat
+    2300006: seat
+    3300000: Cylinder002
+    3300002: frame_leg
+    3300004: frame_seat
+    3300006: seat
+    4300000: frame_seat
+    4300002: Cylinder002
+    4300004: seat
+    4300006: frame_leg
+    9500000: //RootNode
     2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
@@ -56,7 +82,7 @@ ModelImporter:
     secondaryUVPackMargin: 4
     useFileScale: 1
     previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
