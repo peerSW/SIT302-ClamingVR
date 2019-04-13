@@ -38,15 +38,6 @@ public class MovementControl : MonoBehaviour {
 
         transform.Translate(Vector3.forward * vertical * move_speed * Time.deltaTime);//W S 
         transform.Translate(Vector3.right * horizontal * move_speed * Time.deltaTime);//A D 
-        //rotate
-        if (Input.GetKey(KeyCode.Q))
-        {
-            gameObject.GetComponent<Transform>().Rotate(0f, -2f, 0f);
-        }
-        if (Input.GetKey(KeyCode.E))
-        {
-            gameObject.GetComponent<Transform>().Rotate(0f, 2f, 0f);
-        }
     }
 
     void rotate()

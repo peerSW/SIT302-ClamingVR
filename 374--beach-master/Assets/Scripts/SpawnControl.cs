@@ -5,26 +5,45 @@ using UnityEngine;
 public class SpawnControl : MonoBehaviour {
 
     Transform Person;
-    Transform SpawnPoint;
+    Transform Spawner_Beach;
+    Transform Spawner_Lake;
 
-    public enum spawnPosition
-    {
-        Spawn_beach,
-        Spawn_lake
-    }
-    public spawnPosition position = spawnPosition.Spawn_beach;
+    //public enum spawnPosition
+    //{
+    //    Spawn_beach,
+    //    Spawn_lake
+    //}
+    //public spawnPosition position = spawnPosition.Spawn_beach;
    // public spawnPosition lake_position = spawnPosition.Spawn_lake;
     void Start() {
-        if (position == spawnPosition.Spawn_beach) {
-            SpawnPoint = GameObject.Find("Spawner_beach").transform;
-        }
-        else if (position == spawnPosition.Spawn_lake) {
-            SpawnPoint = GameObject.Find("Spawner_lake").transform;
-        }
-       
-        Person = GameObject.Find("OVRCameraRig").transform;
+        Spawner_Beach = GameObject.Find("Spawner_beach").transform;
+        Spawner_Lake = GameObject.Find("Spawner_lake").transform;
 
-        Person.transform.position = SpawnPoint.transform.position;
+        Person = gameObject.GetComponent<Transform>();
+
+        //Person.transform.position = SpawnPoint.transform.position;
+    }
+
+    private void Update()
+    {
+        if (Input.GetKey(KeyCode.Alpha1))
+        {
+            SpawnAtBeach();
+        }
+        if (Input.GetKey(KeyCode.Alpha2))
+        {
+            SpawnAtLake();
+        }
+    }
+
+    void SpawnAtBeach()
+    {
+        Person.transform.position = Spawner_Beach.transform.position;
+    }
+
+    void SpawnAtLake()
+    {
+        Person.transform.position = Spawner_Lake.transform.position;
     }
 
 }
