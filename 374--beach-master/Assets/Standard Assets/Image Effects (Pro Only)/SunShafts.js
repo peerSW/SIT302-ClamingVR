@@ -22,7 +22,7 @@ class SunShafts extends PostEffectsBase
 	
 	public var sunTransform : Transform;
 	public var radialBlurIterations : int = 2;
-	public var sunColor : Color = Color.white;
+	public var sunColor : Color = Color.black;
 	public var sunShaftBlurRadius : float = 2.5f;
 	public var sunShaftIntensity : float = 1.15;
 	public var useSkyBoxAlpha : float = 0.75f;

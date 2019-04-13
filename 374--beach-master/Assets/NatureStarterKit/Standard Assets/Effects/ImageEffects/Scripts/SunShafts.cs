@@ -27,7 +27,7 @@ namespace UnityStandardAssets.ImageEffects
 
         public Transform sunTransform;
         public int radialBlurIterations = 2;
-        public Color sunColor = Color.white;
+        public Color sunColor = Color.black;
         public Color sunThreshold = new Color(0.87f,0.74f,0.65f);
         public float sunShaftBlurRadius = 2.5f;
         public float sunShaftIntensity = 1.15f;
