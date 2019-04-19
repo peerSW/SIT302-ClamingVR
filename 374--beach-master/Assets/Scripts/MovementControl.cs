@@ -16,11 +16,13 @@ public class MovementControl : MonoBehaviour {
     public float maximumY = 60F;
 
     GameObject Camera;
+    PlayFootStep AudiotScript;
 
     float rotationY = 0F;
     // Use this for initialization
     void Start () {
         Camera = transform.Find("OVRCameraRig").gameObject;
+        AudiotScript = gameObject.GetComponent<PlayFootStep>();
     }
 	
 	// Update is called once per frame
@@ -35,6 +37,12 @@ public class MovementControl : MonoBehaviour {
         //move
         float horizontal = Input.GetAxis("Horizontal"); //A D 
         float vertical = Input.GetAxis("Vertical"); //W S 
+
+        if (horizontal != 0 || vertical != 0)
+        {
+
+            AudiotScript.walk();
+        }
 
         transform.Translate(Vector3.forward * vertical * move_speed * Time.deltaTime);//W S 
         transform.Translate(Vector3.right * horizontal * move_speed * Time.deltaTime);//A D 
