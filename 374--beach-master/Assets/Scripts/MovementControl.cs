@@ -64,4 +64,6 @@ public class MovementControl : MonoBehaviour {
         transform.localEulerAngles = new Vector3(0, rotationX, 0);
         Camera.transform.localEulerAngles = new Vector3(-rotationY, 0, 0);
     }
+
+    
 }
