@@ -15,8 +15,8 @@ public class CatleAnimation : MonoBehaviour
     public float resetTime;
 
     public bool isMove = true;
+    float FinalSpeed = 3;
     float Speed;
-    float FinalSpeed = 1;
 
     // 0 animation is walk
     // 1 animation is eat
