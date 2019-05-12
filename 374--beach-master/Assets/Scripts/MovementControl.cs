@@ -15,6 +15,9 @@ public class MovementControl : MonoBehaviour {
     public float minimumY = -60F;
     public float maximumY = 60F;
 
+    public bool m_lock = false;
+    public bool r_lock = false;
+
     GameObject Camera;
     PlayFootStep AudiotScript;
 
@@ -28,8 +31,14 @@ public class MovementControl : MonoBehaviour {
 	// Update is called once per frame
 	void Update ()
     {
-        move();
-        rotate();
+        if (m_lock == false)
+        {
+            move();
+        }
+        if(r_lock ==false)
+        {
+            rotate();
+        }
     }
 
     void move()
