@@ -20,12 +20,20 @@ public class MovementControl : MonoBehaviour {
 
     GameObject Camera;
     PlayFootStep AudiotScript;
+ //   OVRHeadsetEmulator VREmulator;
+   // bool isVRactive = false;
 
     float rotationY = 0F;
     // Use this for initialization
     void Start () {
         Camera = transform.Find("OVRCameraRig").gameObject;
         AudiotScript = gameObject.GetComponent<PlayFootStep>();
+        //for platform consistent
+      //  VREmulator = Camera.GetComponent<OVRHeadsetEmulator>();
+      //  if (VREmulator.IsEmulationActivated())
+      ///  {
+         //   isVRactive = true;
+       // }
     }
 	
 	// Update is called once per frame
@@ -35,7 +43,7 @@ public class MovementControl : MonoBehaviour {
         {
             move();
         }
-        if(r_lock ==false)
+        if(r_lock ==false /*&& VREmulator == false*/)
         {
             rotate();
         }
@@ -45,16 +53,25 @@ public class MovementControl : MonoBehaviour {
     {
         //move
         float horizontal = Input.GetAxis("Horizontal"); //A D 
+        float VRhorizontal = Input.GetAxis("Oculus_GearVR_DpadX");
         float vertical = Input.GetAxis("Vertical"); //W S 
+        float VRvertical = Input.GetAxis("Oculus_GearVR_DpadY");
 
-        if (horizontal != 0 || vertical != 0)
+        if (horizontal+ VRhorizontal != 0 || vertical+ VRvertical != 0)
         {
 
             AudiotScript.walk();
         }
 
-        transform.Translate(Vector3.forward * vertical * move_speed * Time.deltaTime);//W S 
-        transform.Translate(Vector3.right * horizontal * move_speed * Time.deltaTime);//A D 
+        Vector3 forward = Vector3.forward + Camera.transform.forward;
+        forward.y = 0.0f;
+        forward.Normalize();
+        Vector3 right = Vector3.right + Camera.transform.right;
+        right.y = 0.0f;
+        right.Normalize();
+
+        transform.Translate( forward * (vertical+VRvertical) * move_speed * Time.deltaTime);//W S 
+        transform.Translate( right * (horizontal+VRhorizontal) * move_speed * Time.deltaTime);//A D 
     }
 
     void rotate()

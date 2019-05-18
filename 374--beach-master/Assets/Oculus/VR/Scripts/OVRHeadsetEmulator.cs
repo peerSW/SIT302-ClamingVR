@@ -127,7 +127,7 @@ public class OVRHeadsetEmulator : MonoBehaviour {
 		lastFrameEmulationActivated = emulationActivated;
 	}
 
-	bool IsEmulationActivated()
+	public bool IsEmulationActivated()
 	{
 		if (opMode == OpMode.Off)
 		{
