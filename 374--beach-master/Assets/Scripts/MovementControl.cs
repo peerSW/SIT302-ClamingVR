@@ -17,6 +17,7 @@ public class MovementControl : MonoBehaviour {
 
     public bool m_lock = false;
     public bool r_lock = false;
+    public bool isVR = true;
 
     GameObject Camera;
     PlayFootStep AudiotScript;
@@ -43,7 +44,7 @@ public class MovementControl : MonoBehaviour {
         {
             move();
         }
-        if(r_lock ==false /*&& VREmulator == false*/)
+        if(r_lock == false && isVR == false)
         {
             rotate();
         }
