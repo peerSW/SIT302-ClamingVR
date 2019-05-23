@@ -83,6 +83,7 @@ public class Transport : MonoBehaviour {
         Person.GetComponent<Rigidbody>().useGravity = true;
         isTravelling = false;
         this.GetComponent<BoxCollider>().isTrigger = true ;
+
         yield return new WaitForSeconds(1.0f);
         //free the movement from player
         Person.GetComponent<MovementControl>().m_lock = false;
@@ -109,7 +110,7 @@ public class Transport : MonoBehaviour {
         else
         {
             isTravelling = false;
-            EndTravel();
+            StartCoroutine(EndTravel()); 
         }
 
     }
