@@ -7,7 +7,8 @@ public class Transport : MonoBehaviour {
     public enum Destination
     {
         Beach,
-        Lake
+        Lake,
+        Countryside
     }
 
     public Destination destination = Destination.Lake;
@@ -25,6 +26,8 @@ public class Transport : MonoBehaviour {
     private Vector3 cur_distance;
     private bool isTravelling = false;
     private AudioSource WindSource;
+
+   
 
     // Use this for initialization
     void Start () {
