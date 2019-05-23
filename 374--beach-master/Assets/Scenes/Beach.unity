@@ -27678,7 +27678,7 @@ MonoBehaviour:
   maximumY: 60
   m_lock: 0
   r_lock: 0
-  isVR: 1
+  isVR: 0
 --- !u!114 &639111612
 MonoBehaviour:
   m_ObjectHideFlags: 0

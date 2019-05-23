@@ -64,10 +64,10 @@ public class MovementControl : MonoBehaviour {
             AudiotScript.walk();
         }
 
-        Vector3 forward = Vector3.forward + Camera.transform.forward;
+        Vector3 forward =  Camera.transform.forward;
         forward.y = 0.0f;
         forward.Normalize();
-        Vector3 right = Vector3.right + Camera.transform.right;
+        Vector3 right = Camera.transform.right;
         right.y = 0.0f;
         right.Normalize();
 
@@ -78,7 +78,7 @@ public class MovementControl : MonoBehaviour {
     void rotate()
     {
         //deal with X
-        float rotationX = transform.localEulerAngles.y + Input.GetAxis("Mouse X") * sensitivityX;
+        float rotationX = transform.localEulerAngles.y+ Camera.transform.localEulerAngles.y + Input.GetAxis("Mouse X") * sensitivityX;
 
 
         //deal with Y 
@@ -88,8 +88,8 @@ public class MovementControl : MonoBehaviour {
 
 
         //set the angle
-        transform.localEulerAngles = new Vector3(0, rotationX, 0);
-        Camera.transform.localEulerAngles = new Vector3(-rotationY, 0, 0);
+        //transform.localEulerAngles = new Vector3(0, rotationX, 0);
+        Camera.transform.localEulerAngles = new Vector3(-rotationY, rotationX, 0);
     }
 
     

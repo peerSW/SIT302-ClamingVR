@@ -60,7 +60,7 @@ public class Transport : MonoBehaviour {
     {
         //lock the movement from player
         Person.GetComponent<MovementControl>().m_lock = true;
-        Person.GetComponent<MovementControl>().r_lock = true;
+       // Person.GetComponent<MovementControl>().r_lock = true;
         EndPoint = target;
         StartPoint = Person.transform.position;
         distance = StartPoint - EndPoint;
@@ -72,15 +72,18 @@ public class Transport : MonoBehaviour {
         WindSource.Play();
 
     }
-    private void EndTravel()
+    private IEnumerator EndTravel()
     {
         WindSource.Pause();
-        //free the movement from player
-        Person.GetComponent<MovementControl>().m_lock = false;
-        Person.GetComponent<MovementControl>().r_lock = false;
+
+       // Person.GetComponent<MovementControl>().r_lock = false;
         Person.GetComponent<Rigidbody>().useGravity = true;
         isTravelling = false;
         this.GetComponent<BoxCollider>().isTrigger = true ;
+        yield return new WaitForSeconds(1.0f);
+        //free the movement from player
+        Person.GetComponent<MovementControl>().m_lock = false;
+
     }
     private void travelling(float deltaTime)
     {
@@ -97,8 +100,8 @@ public class Transport : MonoBehaviour {
         if (cur_distance.magnitude < distance.magnitude)
         {
             Person.transform.position = Person.transform.position + moveVector*deltaTime*90;
-            Quaternion newRotation = Quaternion.LookRotation(moveVector+new Vector3(0,1.0f,0));
-            Person.transform.rotation = Quaternion.RotateTowards(Person.transform.rotation, newRotation, 50 * Time.deltaTime);
+            //Quaternion newRotation = Quaternion.LookRotation(moveVector+new Vector3(0,1.0f,0));
+           // Person.transform.rotation = Quaternion.RotateTowards(Person.transform.rotation, newRotation, 50 * Time.deltaTime);
         }
         else
         {
