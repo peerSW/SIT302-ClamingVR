@@ -27,7 +27,7 @@ public class MovementControl : MonoBehaviour {
     float rotationY = 0F;
     // Use this for initialization
     void Start () {
-        Camera = transform.Find("OVRCameraRig").gameObject;
+        Camera = transform.Find("CenterEyeAnchor").gameObject;
         AudiotScript = gameObject.GetComponent<PlayFootStep>();
         //for platform consistent
       //  VREmulator = Camera.GetComponent<OVRHeadsetEmulator>();
@@ -71,8 +71,11 @@ public class MovementControl : MonoBehaviour {
         right.y = 0.0f;
         right.Normalize();
 
-        transform.Translate( forward * (vertical+VRvertical) * move_speed * Time.deltaTime);//W S 
-        transform.Translate( right * (horizontal+VRhorizontal) * move_speed * Time.deltaTime);//A D 
+        //transform.Translate( forward * (vertical+VRvertical) * move_speed * Time.deltaTime);//W S 
+       // transform.Translate( right * (horizontal+VRhorizontal) * move_speed * Time.deltaTime);//A D 
+
+        transform.Translate(forward * (vertical + VRhorizontal) * move_speed * Time.deltaTime);//W S 
+        transform.Translate(right * (horizontal ) * move_speed * Time.deltaTime);//A D 
     }
 
     void rotate()
