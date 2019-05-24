@@ -21,13 +21,16 @@ public class MovementControl : MonoBehaviour {
 
     GameObject Camera;
     PlayFootStep AudiotScript;
+    GameObject TrackingSpace;
  //   OVRHeadsetEmulator VREmulator;
    // bool isVRactive = false;
 
     float rotationY = 0F;
+    float rotationX = 0f;
     // Use this for initialization
     void Start () {
-        Camera = transform.Find("OVRCameraRig").transform.Find("TrackingSpace").transform.Find("CenterEyeAnchor").gameObject;
+        TrackingSpace = transform.Find("OVRCameraRig").transform.Find("TrackingSpace").gameObject;
+        Camera = TrackingSpace.transform.Find("CenterEyeAnchor").gameObject;
         AudiotScript = gameObject.GetComponent<PlayFootStep>();
         //for platform consistent
       //  VREmulator = Camera.GetComponent<OVRHeadsetEmulator>();
@@ -64,10 +67,10 @@ public class MovementControl : MonoBehaviour {
             AudiotScript.walk();
         }
 
-        Vector3 forward =  Camera.transform.forward;
+        Vector3 forward =  TrackingSpace.transform.forward;
         forward.y = 0.0f;
         forward.Normalize();
-        Vector3 right = Camera.transform.right;
+        Vector3 right = TrackingSpace.transform.right;
         right.y = 0.0f;
         right.Normalize();
 
@@ -81,7 +84,7 @@ public class MovementControl : MonoBehaviour {
     void rotate()
     {
         //deal with X
-        float rotationX = transform.localEulerAngles.y+ Camera.transform.localEulerAngles.y + Input.GetAxis("Mouse X") * sensitivityX;
+        rotationX +=  Input.GetAxis("Mouse X") * sensitivityX;
 
 
         //deal with Y 
@@ -92,7 +95,7 @@ public class MovementControl : MonoBehaviour {
 
         //set the angle
         //transform.localEulerAngles = new Vector3(0, rotationX, 0);
-        Camera.transform.localEulerAngles = new Vector3(-rotationY, rotationX, 0);
+        TrackingSpace.transform.localEulerAngles = new Vector3(-rotationY, rotationX, 0);
     }
 
     
